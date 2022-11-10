@@ -1,0 +1,123 @@
+{
+  "all": {
+    "у": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1091,769], "label": "у́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1059,769], "label": "У́" }
+        }
+      ]
+    },
+    "е": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1077,769], "label": "е́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1045,769], "label": "Е́" }
+        }
+      ]
+    },
+    "г": {
+      "relevant": [
+        { "$": "auto_text_key", "code":  1169, "label": "ґ" }
+      ]
+    },
+    "і": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints":  [1110,769], "label": "і́" },
+          "upper": { "$": "multi_text_key", "codePoints":  [1030,769], "label": "І́" }
+        }
+      ]
+    },
+    "а": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints":  [1072,769], "label": "а́" },
+          "upper": { "$": "multi_text_key", "codePoints":  [1040,769], "label": "А́" }
+        },
+        { "$": "auto_text_key", "code": 1235, "label": "ӓ" }
+      ]
+    },
+    "р": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1088,769], "label": "р́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1056,769], "label": "Р́" }
+        }
+      ]
+    },
+    "о": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints":  [1086,769], "label": "о́" },
+          "upper": { "$": "multi_text_key", "codePoints":  [1054,769], "label": "О́" }
+        },
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints":  [1086,774], "label": "о̆" },
+          "upper": { "$": "multi_text_key", "codePoints":  [1054,774], "label": "О̆" }
+        }
+      ]
+    },
+    "л": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1083,769], "label": "л́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1051,769], "label": "Л́" }
+        }
+      ]
+    },
+    "и": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1080,769], "label": "и́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1048,769], "label": "И́" }
+        }
+      ]
+    },
+    "~right": {
+      "main": { "code":   44, "label": "," },
+      "relevant": [
+        { "code":   38, "label": "&" },
+        { "code":   37, "label": "%" },
+        { "code":   43, "label": "+" },
+        { "code":   34, "label": "\"" },
+        { "code":   45, "label": "-" },
+        { "code":   58, "label": ":" },
+        { "code":   39, "label": "'" },
+        { "code":   64, "label": "@" },
+        { "code":   59, "label": ";" },
+        { "code":   47, "label": "/" },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   40, "label": "(" },
+          "rtl": { "code":   41, "label": "(" }
+        },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   41, "label": ")" },
+          "rtl": { "code":   40, "label": ")" }
+        },
+        { "code":   35, "label": "#" },
+        { "code":   33, "label": "!" },
+        { "code":   63, "label": "?" }
+      ]
+    }
+  },
+  "uri": {
+    "~right": {
+      "main": { "code": -255, "label": ".com" },
+      "relevant": [
+        { "code": -255, "label": ".sk" },
+        { "code": -255, "label": ".org" },
+        { "code": -255, "label": ".net" }
+      ]
+    }
+  }
+}
