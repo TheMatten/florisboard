@@ -74,12 +74,39 @@
         }
       ]
     },
+    "є": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1108,769], "label": "є́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1028,769], "label": "Є́" }
+        }
+      ]
+    },
+    "я": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1103,769], "label": "я́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1071,769], "label": "Я́" }
+        }
+      ]
+    },
     "и": {
       "relevant": [
         {
           "$": "case_selector",
           "lower": { "$": "multi_text_key", "codePoints": [1080,769], "label": "и́" },
           "upper": { "$": "multi_text_key", "codePoints": [1048,769], "label": "И́" }
+        }
+      ]
+    },
+    "ю": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "$": "multi_text_key", "codePoints": [1102,769], "label": "ю́" },
+          "upper": { "$": "multi_text_key", "codePoints": [1070,769], "label": "Ю́" }
         }
       ]
     },
