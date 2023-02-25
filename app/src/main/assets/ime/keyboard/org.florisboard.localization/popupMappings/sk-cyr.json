@@ -15,6 +15,12 @@
           "$": "case_selector",
           "lower": { "$": "multi_text_key", "codePoints": [1077,769], "label": "е́" },
           "upper": { "$": "multi_text_key", "codePoints": [1045,769], "label": "Е́" }
+        },
+
+        {
+          "$": "case_selector",
+          "lower": { "code": 1105, "label": "ё" },
+          "upper": { "code": 1025, "label": "Ё" }
         }
       ]
     },
@@ -29,6 +35,17 @@
           "$": "case_selector",
           "lower": { "$": "multi_text_key", "codePoints":  [1110,769], "label": "і́" },
           "upper": { "$": "multi_text_key", "codePoints":  [1030,769], "label": "І́" }
+        },
+
+        {
+          "$": "case_selector",
+          "lower": { "code": 1111, "label": "ї" },
+          "upper": { "code": 1031, "label": "Ї" }
+        },
+        {
+          "$": "case_selector",
+          "lower": { "code": 1099, "label": "ы" },
+          "upper": { "code": 1067, "label": "Ы" }
         }
       ]
     },
@@ -80,6 +97,12 @@
           "$": "case_selector",
           "lower": { "$": "multi_text_key", "codePoints": [1108,769], "label": "є́" },
           "upper": { "$": "multi_text_key", "codePoints": [1028,769], "label": "Є́" }
+        },
+
+        {
+          "$": "case_selector",
+          "lower": { "code": 1101, "label": "э" },
+          "upper": { "code": 1069, "label": "Э" }
         }
       ]
     },
@@ -98,6 +121,15 @@
           "$": "case_selector",
           "lower": { "$": "multi_text_key", "codePoints": [1080,769], "label": "и́" },
           "upper": { "$": "multi_text_key", "codePoints": [1048,769], "label": "И́" }
+        }
+      ]
+    },
+    "ь": {
+      "relevant": [
+        {
+          "$": "case_selector",
+          "lower": { "code": 1098, "label": "ъ" },
+          "upper": { "code": 1066, "label": "Ъ" }
         }
       ]
     },
